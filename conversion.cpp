@@ -85,7 +85,7 @@ int main()
 
         digitPlace = 0;
 
-        while ((workingNum % 10) != 0)
+        while ((workingNum / 10) != 0 || workingNum % 10 != 0 )
         {
             currentDigit = workingNum % 10;
 
